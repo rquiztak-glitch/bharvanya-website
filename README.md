@@ -25,3 +25,6 @@ A responsive bilingual (English/Hindi) static website designed for GitHub Pages.
 
 ## Custom domain
 If you own `bharvanya.in`, configure it in **Settings → Pages → Custom domain** and follow GitHub's DNS instructions. Do not change DNS until you control the domain registrar account.
+
+
+Updated assets: `assets/bharvanya-logo.jpg` and `assets/google-review-qr.png`. Upload the entire folder contents (including the assets folder) to the repository root.
