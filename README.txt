@@ -1,17 +1,29 @@
-BHARVANYA E-SUVIDHA PORTAL – FIXED GITHUB UPLOAD
+BHARVANYA E-SUVIDHA PORTAL — UPDATED WEBSITE PACKAGE
 
-IMPORTANT: Upload the files in this folder directly to the ROOT of your existing GitHub repository.
-Do not upload the enclosing folder itself.
-
-Files to upload/replace:
+Files:
 - index.html
 - styles.css
 - script.js
 
-Keep these existing image files in the repository root:
-- bharvanya-logo.jpg
-- google-review-qr.png
+What is improved:
+- Removed the two overlapping floating cards from the hero section.
+- Logo/brand area is now a clean, centered card with no text overlays.
+- Responsive layout for mobile and desktop.
+- Services search and category filters.
+- WhatsApp enquiry links for each service.
+- Basic English/Hindi text toggle.
+- Keeps the service-provider disclaimer and OTP/UPI safety note.
 
-This version fixes the broken image paths seen in the website PDF by referencing the image files from the repository root, matching the current GitHub repository layout.
+GitHub upload:
+1. Open https://github.com/rquiztak-glitch/bharvanya-website
+2. Open the repository root and choose Add file > Upload files.
+3. Upload these three files together, replacing files with the same names.
+4. Commit changes.
+5. Wait for GitHub Pages deployment, then open:
+   https://rquiztak-glitch.github.io/bharvanya-website/
 
-GitHub Pages should publish from branch 'main' and folder '/ (root)'.
+IMPORTANT:
+This package is a static information and assistance website. It does not store customer documents,
+OTP, passwords, UPI PINs, or submit government applications automatically. Final submissions and
+payments must be completed through the relevant official portals and authorized channels.
+WhatsApp contact currently uses +91 9065593863; change the number in index.html and script.js if needed.
