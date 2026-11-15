@@ -41,3 +41,16 @@
 .hero-notes .note-one{color:#21865d;}
 .hero-notes .note-two{color:#102c55;}
 @media(max-width:700px){.hero-logo-wrap{min-height:0;padding:4px 0 0;gap:12px}.hero-logo{width:min(100%,340px);max-height:none;border-radius:18px}.hero-notes{gap:8px}.hero-notes .floating-note{font-size:11px;padding:8px 11px}}
+
+
+/* Service charges — flexible quotation section */
+.pricing-section{padding:76px 0;background:#f4f7fb}
+.pricing-box{max-width:850px;background:#fff;border:1px solid #e5ebf2;border-radius:24px;padding:clamp(24px,5vw,48px);box-shadow:0 16px 44px rgba(16,44,85,.07)}
+.pricing-box h2{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.2;color:#102c55;margin:16px 0}
+.pricing-box h2 em{color:#e8750b;font-style:normal}
+.pricing-box p{color:#596579;line-height:1.8;margin:8px 0}
+.pricing-intro{font-weight:600;color:#263b59!important}
+.pricing-points{list-style:none;padding:0;margin:22px 0 28px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 22px}
+.pricing-points li{position:relative;padding-left:27px;color:#263b59;line-height:1.6}
+.pricing-points li:before{content:"✓";position:absolute;left:0;top:0;color:#21865d;font-weight:800}
+@media(max-width:600px){.pricing-section{padding:52px 0}.pricing-points{grid-template-columns:1fr}.pricing-box .btn{width:100%;text-align:center;justify-content:center}}
