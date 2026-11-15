@@ -1,22 +1,17 @@
-BHARVANYA E-SUVIDHA PORTAL — FINAL GITHUB UPLOAD
+BHARVANYA E-SUVIDHA PORTAL – FIXED GITHUB UPLOAD
 
-UPLOAD THESE ITEMS DIRECTLY TO THE ROOT OF YOUR GitHub repository:
+IMPORTANT: Upload the files in this folder directly to the ROOT of your existing GitHub repository.
+Do not upload the enclosing folder itself.
+
+Files to upload/replace:
 - index.html
 - styles.css
 - script.js
-- README.txt
-- assets/ (the complete folder, containing both image files)
 
-IMPORTANT:
-Do not upload the outer ZIP folder itself. Open the extracted folder and upload its contents.
-The repository root must show index.html and the assets folder side by side.
+Keep these existing image files in the repository root:
+- bharvanya-logo.jpg
+- google-review-qr.png
 
-Image paths used by the website:
-assets/bharvanya-logo.jpg
-assets/google-review-qr.png
+This version fixes the broken image paths seen in the website PDF by referencing the image files from the repository root, matching the current GitHub repository layout.
 
-The two images are the exact original files supplied by Rahul; they have not been edited.
-
-GitHub Pages:
-Repository Settings > Pages > Deploy from a branch > main > /(root) > Save.
-After deployment, hard refresh the website with Ctrl+F5.
+GitHub Pages should publish from branch 'main' and folder '/ (root)'.
