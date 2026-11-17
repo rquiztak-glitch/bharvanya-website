@@ -112,3 +112,18 @@
  .msme-section .msme-actions{align-items:stretch !important}
  .msme-section .msme-actions .btn{width:100% !important}
 }
+
+/* Bharvanya SecureTech service division */
+.securetech-section{padding:64px 0;background:#fff}
+.securetech-card{display:grid;grid-template-columns:minmax(180px,260px) minmax(0,1fr);gap:34px;align-items:center;padding:clamp(22px,4vw,40px);border:1px solid #dce6f0;border-radius:22px;background:linear-gradient(135deg,#f7faff,#fff);box-shadow:0 12px 34px rgba(16,44,85,.08)}
+.securetech-brand{display:flex;justify-content:center;align-items:center;background:#071d38;border-radius:18px;padding:18px;min-height:220px}
+.securetech-brand img{display:block;width:100%;max-width:230px;height:auto;object-fit:contain}
+.securetech-copy h2{font-size:clamp(27px,4vw,38px);line-height:1.2;margin:8px 0 12px;color:#142f53}
+.securetech-copy h2 em{font-style:normal;color:#ef7d12}
+.securetech-copy>p{color:#596579;line-height:1.75}
+.securetech-services{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0}
+.securetech-services span{padding:8px 12px;border:1px solid #dce6f0;border-radius:999px;background:#fff;color:#18365d;font-size:13px;font-weight:600}
+.securetech-area{font-size:14px;color:#17375e}
+.securetech-area span{padding:0 7px;color:#ed7a12}
+.securetech-note{font-size:12px!important;color:#68778b!important;margin-top:16px}
+@media(max-width:620px){.securetech-section{padding:42px 0}.securetech-card{grid-template-columns:1fr;gap:20px;padding:20px 16px;border-radius:16px}.securetech-brand{min-height:0;padding:14px}.securetech-brand img{max-width:170px}.securetech-copy .btn{width:100%;text-align:center;justify-content:center}}
